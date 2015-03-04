@@ -13,7 +13,7 @@
 @end
 
 @implementation ViewController
-@synthesize nametext,phonetext;
+@synthesize nametext,phonetext,addresstext;
 
 
 

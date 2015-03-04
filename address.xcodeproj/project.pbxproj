@@ -18,6 +18,7 @@
 		8789292B15A9DC4B004B82AB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8789292915A9DC4B004B82AB /* ViewController.xib */; };
 		8789293415A9DDD0004B82AB /* secondpage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8789293215A9DDD0004B82AB /* secondpage.m */; };
 		8789293515A9DDD0004B82AB /* secondpage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8789293315A9DDD0004B82AB /* secondpage.xib */; };
+		87E6EAF81AA7384300753ABF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E6EAF71AA7384300753ABF /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		8789293115A9DDD0004B82AB /* secondpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = secondpage.h; path = ../secondpage.h; sourceTree = "<group>"; };
 		8789293215A9DDD0004B82AB /* secondpage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = secondpage.m; path = ../secondpage.m; sourceTree = "<group>"; };
 		8789293315A9DDD0004B82AB /* secondpage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = secondpage.xib; path = ../secondpage.xib; sourceTree = "<group>"; };
+		87E6EAF71AA7384300753ABF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		8789290515A9DC4A004B82AB = {
 			isa = PBXGroup;
 			children = (
+				87E6EAF71AA7384300753ABF /* Default-568h@2x.png */,
 				8789291A15A9DC4A004B82AB /* address */,
 				8789291315A9DC4A004B82AB /* Frameworks */,
 				8789291115A9DC4A004B82AB /* Products */,
@@ -135,7 +138,7 @@
 		8789290715A9DC4A004B82AB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = febycv;
 			};
 			buildConfigurationList = 8789290A15A9DC4A004B82AB /* Build configuration list for PBXProject "address" */;
@@ -163,6 +166,7 @@
 				8789291F15A9DC4B004B82AB /* InfoPlist.strings in Resources */,
 				8789292B15A9DC4B004B82AB /* ViewController.xib in Resources */,
 				8789293515A9DDD0004B82AB /* secondpage.xib in Resources */,
+				87E6EAF81AA7384300753ABF /* Default-568h@2x.png in Resources */,
 				8706F67F15AF2016003E18FA /* address-book.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
